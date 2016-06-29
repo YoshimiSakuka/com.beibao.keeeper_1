@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_jibenzhuangbei"
+    tools:context="com.beibaoke.JibenzhuangbeiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scrollIndicators="none"
+        android:scrollbars="none">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n    背包客基本装备介绍\n
+背包客的第一装备，否则何来背包客(hiker)的说法。背包的大小视路程远近而定，一般在北京周边25升左右即可。长线旅行的话，MM需45~55 升，GG需55升以上，负重能力一定要强；另购买背包时一定要试好，要向店员请教背包的正确用法，否则上路时可能不能起到减轻负重、均匀负担的作用。
+ \n
+"
+            android:id="@+id/textView5" />
+            <ImageView android:src="@drawable/img5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@+id/imageView5"
+                android:text="帐篷\n
+防水指数要好，建议在1500或以上。不登高山的话，从实用角度来看，防风性能可不用着重考虑。注意重量。3kg以上不予以考虑，现在都是玻璃纤维撑杆的，一般在2.5kg左右。
+建议不要买单人的，因为双人帐篷重不了多少，且集体活动时可帮助同组人减轻负担，更何况，两个人的时候还可不时去海边一把，月色海滨啊……
+
+"
+                android:id="@+id/textView6" />
+            <ImageView android:src="@drawable/img6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@+id/imageView6"
+                android:text="睡袋、防潮垫\n
+有帐篷就当然需要睡袋和防潮垫了。如果以后在北京周边活动较多的话，适用温度不用太低；经常去较寒冷地方的话，适用温度应在零摄氏度以下。
+
+"
+                android:id="@+id/textView7" />
+            <ImageView android:src="@drawable/img7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:layout_below="@+id/textView7"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="头灯或手电\n
+　　我们不能总是精确地计算自己的行程，当延误行程时就用得上了，因为大多数没有野外经验的人，一旦失去光就会很危险。
+
+"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/imageView7"/>
+            <ImageView android:src="@drawable/img8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_below="@+id/textView8"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@+id/imageView8"
+                android:text="刀具\n
+　　锋利的多功能军刀应该是你的首选，它的锯子和刀有可能是你在户外使用频率最高的。
+
+"
+                android:id="@+id/textView9" />
+            <ImageView android:src="@drawable/img9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:layout_below="@+id/textView9"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@+id/imageView9"
+                android:text="指南针\n
+　　在野外活动必备，具体作用就不必说了吧，但前提是你必须知道怎么使用它。
+
+"
+                android:id="@+id/textView10" />
+            <ImageView android:src="@drawable/img10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView10"
+                android:layout_below="@+id/textView10"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@+id/imageView10"
+                android:text="手机\n
+　　电池一定要充满电，备用电池最好也带上，并放在防水的小袋里以防露水。\n
+鞋子\n
+　 　鞋子的重要性其实应该大于背包，因为它最直接关系到你的人身安全。一定要是防滑鞋或登山鞋，普通运动鞋不考虑。登山鞋最好还是要高帮儿的，可以保护踝 骨，人在长时间徒步时踝骨很容易受伤。 一双好的鞋会在野外给你的双脚提供多年可靠舒适的服务，如果你常去野外，花在选择如意靴子的时间、精力和费用是非常值得的。
+　　\n不建议穿新鞋。\n
+袜子\n
+　　厚一些、舒适一点的棉袜，包裹性强，防硌。\n
+外衣裤\n
+　　一定要长衣长裤，无论季节。在山上乱草中行走时会很好地保护身体，最好是防水的。推荐有条件的穿冲锋衣裤或快干衣裤。长途徒步登山千万不可穿牛仔裤，严重影响两腿的活动，而且一旦打湿就会成为你的很大负担。
+\n内衣裤\n
+　　贴身衣服建议不要穿全棉的，在国外登山界，全棉内衣被称为“死人穿的衣服”，原因是在高寒地带运动后，全棉内衣的吸汗性会冻死你。当然，我们不去高寒地带的话，没这么恐怖。
+\n帽子\n
+　　宽檐帽比较好，不仅仅是为了遮阳，有时在山间行走时，也是为了挡住齐人高的乱草，下雨时也很管用；在高寒地带，帽子还能够减少你头部的散热；人体的热量有相当大的比例都是从头部散发掉的,气温低的时候尤其如此。
+\n手套\n
+　　在乱草中和山石中行走时有很大的保护作用，但要注意一点的是，手套会带来的危险就是，会降低手的敏感度。
+\n墨镜\n
+　　遮阳需要，但肯定会带来视觉误差，所以在危险路段时慎用。
+\n毛巾\n
+　　擦汗用的，你会感觉很方便，在灰尘多的地方可打湿蒙在口鼻处，抵挡灰尘。
+\n洗漱用品\n
+　　长线行程时可将洗漱用品适当带上。
+\n拖鞋或凉鞋\n
+　　如果装备不特别多且重可带上，休息时可用。当一天行程下来时，换上拖鞋是一件很FB的事情啊。
+\n防晒霜、唇膏\n
+　　户外日光强、风大，可少量携带，以防烈日与口唇干燥。
+\n雨衣\n
+　　不管长短线，我们途中碰上下雨的可能性较大，所以有一件雨衣会让我们免去淋雨之苦。当然，一次性白色塑料雨披也行(FB时可做桌布铺在地上)。
+\n药品\n
+　　藿香正气水、红花油、清凉油/风油精、云南白药(粉剂、喷剂)、息斯敏、酒精、红霉素软膏、绷带+纱布、碘酒、创可贴、
+\n
+"
+                android:id="@+id/textView11" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
